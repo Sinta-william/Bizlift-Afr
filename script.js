@@ -12,9 +12,10 @@
     const prompt = `You are a business coach helping Nigerian youth.
     Suggest 3 low-budget business ideas for someone who is ${age} years old, living in ${location}, interested in ${interest}, with a ₦${budget} budget.
     For each idea, recommend:
-    - 1 educational resource (video or article)
-    - 1 social media mentor to follow (Instagram, TikTok, or LinkedIn)
-    Make the ideas simple, practical, and local.`;
+    - 1 educational resource (video or article), provide a link, too make it easier for the user to Access
+    - 1 social media mentor to follow (Instagram, TikTok, or LinkedIn) provide social handels too, if possibel
+    make it easy to read.
+    Make the ideas simple, practical,local,unqiue and beautiful .`;
 
     try {
       const response = await fetch(backendUrl, {
